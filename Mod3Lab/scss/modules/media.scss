@@ -1,0 +1,78 @@
+/***************************
+Media Modules
+***************************/
+.media, .media-body {
+    overflow:hidden;
+  }
+  .media-item {
+    float:left;
+    margin-right: 10px;
+  }
+  .media-item i {
+    color: #594a42;
+    font-size: 5em;
+  }
+  .media-item img {
+    display:block;
+  }
+
+  .hero-featured {
+    height: 204px;
+    margin: auto auto 20px auto;
+  }
+
+  .media-featured {
+    padding: 0 15px;
+    h4 {
+      font-size: 1.750em;
+      margin: 0px auto;
+    }
+    p {
+      font-size: 1.125em;
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .media .link {
+    padding: 0 15px;
+    margin: 0px auto 20px auto;
+  }
+
+  .tag-container {
+    position: absolute;
+    border-top: 4px solid;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    color: white;
+    vertical-align: middle;
+    text-align: left;
+    &.green {
+      border-top-color: $green;
+      .tag {
+        background-color: $green;
+      }
+    }
+    &.orange {
+      border-top-color: $orange;
+      .tag {
+        background-color: $orange;
+      }
+    }
+    &.light-brown {
+      border-top-color: $light-brown;
+      .tag {
+        background-color: $light-brown;
+      }
+    }
+    .tag {
+      display: inline-block;
+      padding: 10px 35px 10px 15px;
+      height: 50px;
+      font-size: 1.313em;
+    }
+  }

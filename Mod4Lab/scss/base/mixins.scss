@@ -1,0 +1,27 @@
+@mixin circle($width) {
+  width: $width;
+  height: $width;
+  border-radius: $width/2;
+}
+
+@mixin flexbox-display {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex: $values;
+  -webkit-flex: $values;
+  flex: $values;
+}
+
+@mixin flex-direction($value) {
+  -webkit-box-direction: $value;
+  -moz-box-direction: $value;
+  -webkit-direction: $value;
+  direction: $value;
+}
